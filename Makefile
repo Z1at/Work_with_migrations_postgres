@@ -6,3 +6,6 @@ db:
 
 req:
 	pip install -r requirements.txt
+
+upgrade:
+	alembic upgrade head
